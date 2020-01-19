@@ -1,0 +1,11 @@
+language: go
+go:
+  - 1.13.6
+install:
+  - go mod download
+  - curl -sL https://taskfile.dev/install.sh | sh
+  - curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s v1.22.2
+script:
+  - export PATH="$PATH:./bin"
+  - task lint
+  - task test

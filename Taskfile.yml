@@ -1,0 +1,17 @@
+version: '2'
+
+tasks:
+  coverage:
+    desc: 'Run tests with coverage and open report in default browser'
+    cmds:
+      - go test -coverprofile=./tmp/cover.out ./...
+      - go tool cover -html=./tmp/cover.out -o ./tmp/cover.html
+      - open ./tmp/cover.html
+  lint:
+    desc: "Run linter"
+    cmds:
+      - golangci-lint run --tests=0 ./...
+  test:
+    desc: "Run tests"
+    cmds:
+      - go test ./...
