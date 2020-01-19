@@ -6,7 +6,7 @@ import (
 	"github.com/tj/assert"
 )
 
-func TestContainerCreation(t *testing.T) {
+func TestBinaryGap(t *testing.T) {
 	assert.Equal(t, 0, BinaryGapSolution(0), "0")
 	assert.Equal(t, 5, BinaryGapSolution(1041), "1041")
 	assert.Equal(t, 0, BinaryGapSolution(15), "15")
