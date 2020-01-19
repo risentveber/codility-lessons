@@ -3,6 +3,7 @@ linters:
     - lll
     - gocritic
     - wsl
+    - gomnd
   enable-all: true
 linters-settings:
   goimports:
