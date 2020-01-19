@@ -1,8 +1,7 @@
 linters:
   disable:
-    - gochecknoglobals
     - lll
-    - unused
+    - gocritic
     - wsl
   enable-all: true
 linters-settings:
