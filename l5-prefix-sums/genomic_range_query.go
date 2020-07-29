@@ -12,7 +12,7 @@ func GenomicRangeQuerySolution(S string, P []int, Q []int) []int {
 	for index, char := range S {
 		for key := range keys {
 			keyCounter := counters[key]
-			if key == char { // ++ 1
+			if key == char { // nolint:nestif
 				if index == 0 {
 					keyCounter[index] = 1
 				} else {
