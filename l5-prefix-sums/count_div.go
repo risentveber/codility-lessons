@@ -8,5 +8,6 @@ func CountDivSolution(A int, B int, K int) int {
 	if Amod == 0 {
 		result++
 	}
+
 	return result
 }

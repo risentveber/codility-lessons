@@ -11,5 +11,6 @@ func MaxProductOfThreeSolution(A []int) int {
 	if max > negMax {
 		return max
 	}
+
 	return negMax
 }

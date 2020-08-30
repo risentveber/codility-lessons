@@ -9,5 +9,6 @@ func MaxSliceSumSolution(A []int) int {
 		maxEndsInI = max(maxEndsInI+A[i], A[i])
 		result = max(maxEndsInI, result)
 	}
+
 	return result
 }

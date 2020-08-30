@@ -9,5 +9,6 @@ func MissingIntegerSolution(A []int) int {
 	result := 1
 	for ; elemFound[result]; result++ {
 	}
+
 	return result
 }

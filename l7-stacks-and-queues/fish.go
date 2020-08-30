@@ -21,5 +21,6 @@ func FishSolution(A []int, B []int) int {
 			}
 		}
 	}
+
 	return result + len(stack)
 }

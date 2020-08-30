@@ -12,5 +12,6 @@ func OddOccurrencesInArraySolution(A []int) int {
 			return elem
 		}
 	}
+
 	return 0
 }

@@ -6,5 +6,6 @@ func DistinctSolution(A []int) int {
 	for _, elem := range A {
 		counter[elem] = true
 	}
+
 	return len(counter)
 }

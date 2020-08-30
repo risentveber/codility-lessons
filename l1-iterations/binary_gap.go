@@ -21,5 +21,6 @@ func BinaryGapSolution(N int) int {
 		}
 		N /= base
 	}
+
 	return maxCount
 }

@@ -40,5 +40,6 @@ func EquiLeaderSolution(A []int) int {
 			result++
 		}
 	}
+
 	return result
 }

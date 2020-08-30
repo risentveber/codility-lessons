@@ -17,5 +17,6 @@ func CyclicRotationSolution(A []int, K int) []int {
 		newIndex := (i + K) % length
 		result[newIndex] = elem
 	}
+
 	return result
 }

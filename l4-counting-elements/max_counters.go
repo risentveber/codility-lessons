@@ -21,5 +21,6 @@ func MaxCountersSolution(N int, A []int) []int {
 	for i := 0; i < N; i++ {
 		result[i] = base + overBase[i+1]
 	}
+
 	return result
 }
